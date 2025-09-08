@@ -1,5 +1,5 @@
 [
-  {"version": "3.0 test", "notes": [" test Yeni özellikler eklendi", "Hata düzeltmeleri"]},
-  {"version": "2.0", "notes": ["İkinci versiyondur"]}
+  {"version": "V3.0", "notes": [" test Yeni özellikler eklendi", "Hata düzeltmeleri"]},
+  {"version": "v2.0", "notes": ["İkinci versiyondur"]}
   {"version": "1.0", "notes": ["İlk versiyondur"]}
 ]
