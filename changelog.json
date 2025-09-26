@@ -1,6 +1,6 @@
 [
-  {"version": "0.9 ", "notes": ["🎉 Yeni özellikler eklendi", "📍Hata düzeltmeleri"]},
-  {"version": "0.8", "notes": ["İkinci versiyondur"]}
-  {"version": "0.7", "notes": ["İlk versiyondur"]}
-  {"version": "0.6 ", "notes": ["test versiyonudur"]}
+  {"version": "0.9 ", "notes": ["🎉 New Features", "📍Bug Fixes"]},
+  {"version": "0.8", "notes": ["You can now view the latest changelog updates pulled from the server."]}
+  {"version": "0.7", "notes": ["I thought it would be better to add better features for the release."]}
+  {"version": "0.6 ", "notes": ["Some test for future"]}
 ]
