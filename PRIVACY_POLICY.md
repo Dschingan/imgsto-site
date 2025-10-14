@@ -37,7 +37,7 @@
 - Data is collected in an anonymized and aggregated form and is not used to identify you.
 - Examples of events: app opens, tab changes, overlay opened, feature usage, non-sensitive errors.
 - Users can disable analytics in-app if this option is provided in `Settings`.
-- For users in the EEA/UK, we use Google's User Messaging Platform (UMP) to obtain consent where required.
+
 
 ## 3. Information Sharing
 
@@ -108,5 +108,5 @@ This privacy policy complies with:
 ---
 
 **Note for Play Store Submission:**
-This privacy policy specifically addresses the use of SYSTEM_ALERT_WINDOW permission for overlay functionality and battery optimization exemption for background processing (requested only with user consent when necessary). The app is paid and does not display ads, and does not use the Advertising ID. All restricted permissions are justified by core app functionality and user benefit. The optional Google Photos backup occurs only when initiated by the user and uploads directly to the user's Google account. Firebase Analytics is used for anonymized usage metrics, and consent is obtained where required (e.g., EEA/UK) via UMP.
+This privacy policy specifically addresses the use of SYSTEM_ALERT_WINDOW permission for overlay functionality and battery optimization exemption for background processing (requested only with user consent when necessary). The app is paid and does not display ads, and does not use the Advertising ID. All restricted permissions are justified by core app functionality and user benefit. The optional Google Photos backup occurs only when initiated by the user and uploads directly to the user's Google account. Firebase Analytics is used for anonymized usage metrics only.
 
