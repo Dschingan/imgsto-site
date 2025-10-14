@@ -1,6 +1,6 @@
 # IMGSTO Privacy Policy
 
-**Last Updated: 2025-09-15**
+**Last Updated: 2025-10-14**
 
 ## 1. Information We Collect
 
@@ -15,7 +15,6 @@
 - **Settings**: App preferences and configuration data stored locally.
 
 ### 1.3 Device Information
-- **Device Identifiers**: For advertising purposes only (Google Advertising ID) via Google Mobile Ads SDK.
 - **System Information**: Android version, device model for compatibility optimization.
 - **Network Status**: To determine connectivity for background sync features.
 
@@ -28,22 +27,24 @@
 - Background processing for improved performance
 - Optional backup to your Google Photos account upon your explicit action
 
-### 2.2 Advertising
-- Display relevant advertisements using Google AdMob
-- Advertising ID is used for personalized ad delivery
-- You can opt-out of personalized ads in your device settings
-
-### 2.3 App Improvement
+### 2.2 App Improvement
 - Analyze usage patterns to improve app performance
 - Optimize overlay and background services
 - Enhance user experience based on feature usage
 
+### 2.3 Analytics (Firebase Analytics)
+- We use Google Firebase Analytics to understand app usage and improve features.
+- Data is collected in an anonymized and aggregated form and is not used to identify you.
+- Examples of events: app opens, tab changes, overlay opened, feature usage, non-sensitive errors.
+- Users can disable analytics in-app if this option is provided in `Settings`.
+- For users in the EEA/UK, we use Google's User Messaging Platform (UMP) to obtain consent where required.
+
 ## 3. Information Sharing
 
 ### 3.1 Third-Party Services
-- **Google AdMob (Google Mobile Ads SDK)**: For advertising services (governed by Google's privacy policy)
 - **Google Play Services**: For app functionality and updates
 - **Google Photos APIs**: Used to upload media directly to your own Google Photos account when you initiate such actions. We do not access or store your Google account credentials; authentication is handled by Google.
+- **Google Firebase Analytics**: Processes anonymized usage metrics to help improve the app. No personal identifiers or media content are uploaded by IMGSTO.
 
 ### 3.2 No Sale of Personal Data
 - We do not sell, rent, or trade your personal information
@@ -69,14 +70,13 @@
 - Disable battery optimization exemption: Settings > Battery > Battery Optimization
 - Control media access: Settings > Apps > IMGSTO > Permissions
 
-### 5.2 Advertising Controls
-- Opt-out of personalized ads: Settings > Google > Ads
-- Reset Advertising ID: Settings > Google > Ads > Reset advertising ID
-- Limit ad tracking in your device privacy settings
+### 5.2 Analytics Controls
+- Disable analytics (if available): In-app Settings > Privacy
 
 ### 5.3 Data Deletion
 - Uninstalling the app removes all locally stored data
 - Clear app data: Settings > Apps > IMGSTO > Storage > Clear Data
+- Analytics data collected through Firebase is governed by Google's retention policies. If an in-app analytics toggle is provided and disabled, new analytics events will stop.
 
 ## 6. Children's Privacy
 
@@ -108,4 +108,5 @@ This privacy policy complies with:
 ---
 
 **Note for Play Store Submission:**
-This privacy policy specifically addresses the use of SYSTEM_ALERT_WINDOW permission for overlay functionality, battery optimization exemption for background processing (requested only with user consent when necessary), and advertising ID usage for personalized ads. Overlay surfaces never show ads. All restricted permissions are justified by core app functionality and user benefit. The optional Google Photos backup occurs only when initiated by the user and uploads directly to the user's Google account.
+This privacy policy specifically addresses the use of SYSTEM_ALERT_WINDOW permission for overlay functionality and battery optimization exemption for background processing (requested only with user consent when necessary). The app is paid and does not display ads, and does not use the Advertising ID. All restricted permissions are justified by core app functionality and user benefit. The optional Google Photos backup occurs only when initiated by the user and uploads directly to the user's Google account. Firebase Analytics is used for anonymized usage metrics, and consent is obtained where required (e.g., EEA/UK) via UMP.
+
